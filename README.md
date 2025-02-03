@@ -62,7 +62,7 @@ We observe the following iterative process:
 
 1. **Local reciprocity:** Each equation, when considered in isolation, is reciprocal. For example, the equations $2x + 3y = x_1$ and $3x + 2y = x_1$ are algebraically invertible and preserve balance locally.
 2. **Loss of duality under iteration:** When the outputs of each equation are fed into the next iteration, the feedback loop introduces asymmetry. The second equation compounds the imbalance caused by the first, leading to exponential divergence in scaling.
-3. **Eigenvalue-driven divergence:** The eigenvalues of the transformation matrices $A$ and $B$ determine the long-term scaling behavior. Despite the identical column spaces, the eigenvalues differ:
+3. **Eigenvalue-driven divergence:** The eigenvalues of the transformation matrices $A$ and $B$ determine the long-term scaling behavior when seeing the matrices as system of difference equations. Despite the identical column spaces, the eigenvalues differ:
    - $A$ has eigenvalues $0$ and $26$.
    - $B$ has eigenvalues $0$ and $34$.
 
