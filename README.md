@@ -20,8 +20,8 @@ Consider the following two systems of equations:
 
 $$
 \begin{cases}
-2x + 3y = x_1 \\
-4x + 6y = y_1
+2x_t + 3y_t = x_{t+1} \\
+4x_t + 6y_t = y_{t+1}
 \end{cases}
 $$
 
@@ -35,8 +35,8 @@ $$
 
 $$
 \begin{cases}
-3x + 2y = x_1 \\
-6x + 4y = y_1
+3x_t + 2y_t = x_{t+1} \\
+6x_t + 4y_t = y_{t+1}
 \end{cases}
 $$
 
